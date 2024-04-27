@@ -1,0 +1,12 @@
+numero=10
+contador=1
+sw=0
+while(contador<=6):
+    if(sw==0):
+        print(numero)
+        sw=1
+    else:
+        print(-numero)
+        sw=0
+    numero=numero-3
+    contador=contador+1

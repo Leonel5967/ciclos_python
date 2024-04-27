@@ -1,0 +1,12 @@
+numero=4
+sw=0
+contador=1
+while(contador<=6):
+    if(sw==0):
+        print(numero)
+        sw=1
+    else:
+        print(-numero)
+        sw=0
+    numero=numero*2
+    contador=contador+1
